@@ -1,0 +1,83 @@
+[
+  {
+    "description": "    As a user i am enable to use all the functions in practice page.",
+    "keyword": "Feature",
+    "name": "Practice functions of the Application",
+    "line": 1,
+    "id": "practice-functions-of-the-application",
+    "tags": [],
+    "uri": "codenbox_practice.feature",
+    "elements": [
+      {
+        "id": "practice-functions-of-the-application;as-a-user,-i-should-able-to-see-the-title-of-the-page",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "As a user, i should able to see the title of the page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I successfully browse to the Application",
+            "result": {
+              "status": "passed",
+              "duration": 22879000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on Practice button",
+            "result": {
+              "status": "passed",
+              "duration": 12313000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the title of the page is 'Automation Practice'",
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "practice-functions-of-the-application;as-a-user,-i-should-able-to-select-from-static-dropdown",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "As a user, i should able to select from static dropdown",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click on static dropdown example",
+            "result": {
+              "status": "passed",
+              "duration": 419000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should able to select Selenium",
+            "result": {
+              "status": "passed",
+              "duration": 221000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

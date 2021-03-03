@@ -1,0 +1,12 @@
+{
+    "chromeWebSecurity": true,
+    "ignoreTestFiles":["*.js", "*.md"],
+    "testFiles": "**/*.feature",
+
+
+    "env" :
+    {
+        "url": "http://codenboxautomationlab.com/"
+    }
+
+}
