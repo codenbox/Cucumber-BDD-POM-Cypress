@@ -11,7 +11,7 @@
       {
         "id": "practice-functions-of-the-application;as-a-user,-i-should-able-to-see-the-title-of-the-page",
         "keyword": "Scenario",
-        "line": 5,
+        "line": 6,
         "name": "As a user, i should able to see the title of the page",
         "tags": [],
         "type": "scenario",
@@ -19,31 +19,31 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 6,
+            "line": 7,
             "name": "I successfully browse to the Application",
             "result": {
               "status": "passed",
-              "duration": 22879000000
+              "duration": 4259000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 7,
+            "line": 8,
             "name": "I click on Practice button",
             "result": {
               "status": "passed",
-              "duration": 12313000000
+              "duration": 8647000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
+            "line": 9,
             "name": "I should see the title of the page is 'Automation Practice'",
             "result": {
               "status": "passed",
-              "duration": 53000000
+              "duration": 41000000
             }
           }
         ]
@@ -51,7 +51,7 @@
       {
         "id": "practice-functions-of-the-application;as-a-user,-i-should-able-to-select-from-static-dropdown",
         "keyword": "Scenario",
-        "line": 11,
+        "line": 12,
         "name": "As a user, i should able to select from static dropdown",
         "tags": [],
         "type": "scenario",
@@ -59,21 +59,22 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 12,
+            "line": 13,
             "name": "I click on static dropdown example",
             "result": {
               "status": "passed",
-              "duration": 419000000
+              "duration": 423000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 13,
+            "line": 14,
             "name": "I should able to select Selenium",
             "result": {
-              "status": "passed",
-              "duration": 221000000
+              "status": "failed",
+              "duration": 4074000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#dropdown-class-exampleFAIL`, but never found it.\n    at Function.selectSelenium (http://codenboxautomationlab.com/__cypress/tests?p=cypress\\integration\\examples\\cucumber-bdd-test\\codenbox_practice.feature:82:10)\n    at Context.eval (http://codenboxautomationlab.com/__cypress/tests?p=cypress\\integration\\examples\\cucumber-bdd-test\\codenbox_practice.feature:115:28)\n    at Context.resolveAndRunStepDefinition (http://codenboxautomationlab.com/__cypress/tests?p=cypress\\integration\\examples\\cucumber-bdd-test\\codenbox_practice.feature:10533:9)\n    at Context.eval (http://codenboxautomationlab.com/__cypress/tests?p=cypress\\integration\\examples\\cucumber-bdd-test\\codenbox_practice.feature:9874:35)"
             }
           }
         ]

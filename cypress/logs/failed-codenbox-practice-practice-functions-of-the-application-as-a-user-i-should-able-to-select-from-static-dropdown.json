@@ -1,0 +1,14 @@
+{
+  "specName": "codenbox_practice.feature",
+  "title": "As a user, i should able to select from static dropdown",
+  "suiteName": "Practice functions of the Application",
+  "testName": "Practice functions of the Application As a user, i should able to select from static dropdown",
+  "testError": "Timed out retrying after 4000ms: Expected to find element: `#dropdown-class-exampleFAIL`, but never found it.",
+  "testCommands": [
+    "step **I click on static dropdown example**",
+    "get #dropdown-class-example",
+    "select Selenium",
+    "step **I should able to select Selenium**",
+    "get #dropdown-class-exampleFAIL"
+  ]
+}

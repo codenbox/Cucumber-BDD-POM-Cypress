@@ -1,0 +1,23 @@
+{
+  "specName": "checkbox.spec.js",
+  "title": "checkbox test",
+  "suiteName": "My Checkbox Test Suite",
+  "testName": "My Checkbox Test Suite checkbox test",
+  "testError": "Timed out retrying after 4000ms: Expected to find element: `.ui-menu-item divFAILED`, but never found it.",
+  "testCommands": [
+    "visit http://codenboxautomationlab.com/practice/",
+    "get #checkBoxOption1",
+    "check ",
+    "assert expected **<input#checkBoxOption1>** to be **checked**",
+    "assert expected **<input#checkBoxOption1>** to be **checked**",
+    "get #checkBoxOption1",
+    "uncheck ",
+    "assert expected **<input#checkBoxOption1>** not to be **checked**",
+    "get input[type=\"checkbox\"]",
+    "check [option1, option2]",
+    "check [option1, option2]",
+    "get #autocomplete",
+    "type can",
+    "get .ui-menu-item divFAILED"
+  ]
+}

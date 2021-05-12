@@ -1,0 +1,14 @@
+{
+  "specName": "readWrite.spec.js",
+  "title": "read test",
+  "suiteName": "My write-read Test Suite",
+  "testName": "My write-read Test Suite read test",
+  "testError": "Timed out retrying after 4000ms: object tested must be an array, a map, an object, a set, a string, or a weakset, but object given",
+  "testCommands": [
+    "readFile sampleFile.txt",
+    "assert expected **Hello world\\nThis is my sampleFile** to exist",
+    "assert expected **Hello world\\nThis is my sampleFile** to include **Hello**",
+    "readFile cypress/fixtures/example.json",
+    "assert expected **{ Object (id, name, ...) }** to exist"
+  ]
+}

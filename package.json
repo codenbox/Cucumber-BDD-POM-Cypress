@@ -21,9 +21,12 @@
   "license": "ISC",
   "devDependencies": {
     "cucumber-html-reporter": "^5.3.0",
-    "cypress": "^6.6.0"
+    "cypress": "^6.6.0",
+    "cypress-failed-log": "^2.9.1"
   },
   "dependencies": {
-    "cypress-cucumber-preprocessor": "^4.0.1"
+    "cypress-cucumber-preprocessor": "^4.0.1",
+    "cypress-downloadfile": "^1.2.0",
+    "pdf-parse": "^1.1.1"
   }
 }

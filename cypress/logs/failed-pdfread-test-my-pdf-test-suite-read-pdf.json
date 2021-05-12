@@ -1,0 +1,11 @@
+{
+  "specName": "pdfreadTest.js",
+  "title": "read pdf",
+  "suiteName": "My pdf Test Suite",
+  "testName": "My pdf Test Suite read pdf",
+  "testError": "Timed out retrying after 4000ms: `cy.readFile(\"cypress\\mydownloads\\demofile.jpg\")` failed because the file does not exist at the following path:\n\n`C:\\CypressDemo\\cypress\\mydownloads\\demofile.jpg`",
+  "testCommands": [
+    "readFile cypress\\mydownloads\\demofile.jpg",
+    "assert expected **null** to exist"
+  ]
+}

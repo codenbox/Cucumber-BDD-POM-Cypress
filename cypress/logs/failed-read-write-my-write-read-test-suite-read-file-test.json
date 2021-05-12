@@ -1,0 +1,8 @@
+{
+  "specName": "readWrite.spec.js",
+  "title": "read file test",
+  "suiteName": "My write-read Test Suite",
+  "testName": "My write-read Test Suite read file test",
+  "testError": "example is not defined",
+  "testCommands": []
+}

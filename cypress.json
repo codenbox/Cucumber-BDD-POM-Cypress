@@ -1,7 +1,7 @@
 {
     "chromeWebSecurity": true,
-    "ignoreTestFiles":["*.js", "*.md"],
-    "testFiles": "**/*.feature",
+    
+    
 
 
     "env" :

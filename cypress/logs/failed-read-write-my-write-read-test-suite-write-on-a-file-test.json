@@ -1,0 +1,12 @@
+{
+  "specName": "readWrite.spec.js",
+  "title": "write on a file test",
+  "suiteName": "My write-read Test Suite",
+  "testName": "My write-read Test Suite write on a file test",
+  "testError": "`cy.writeFile(\"cypress\fixturesexample.json\")` failed while trying to write the file at the following path:\n\n  `C:\\CypressDemo\\cypress\fixturesexample.json`\n\nThe following error occurred:\n\n  > \"ENOENT: no such file or directory, open 'C:\\CypressDemo\\cypress\fixturesexample.json'\"",
+  "testCommands": [
+    "writeFile sampleFile.txt",
+    "writeFile sampleFile.txt",
+    "writeFile cypress\fixturesexample.json"
+  ]
+}

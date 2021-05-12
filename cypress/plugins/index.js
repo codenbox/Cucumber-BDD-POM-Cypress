@@ -20,4 +20,27 @@ module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
   on ('file:preprocessor', cucumber())
+  on('task', {
+    failed: require('cypress-failed-log/src/failed')(),
+  })
 }
+
+// const {downloadFile} = require('cypress-downloadfile/lib/addPlugin')
+// module.exports = (on, config) => {
+//   on('task', {downloadFile})
+// }
+
+
+// const parsePdf = async (sample) => {
+//   const pdfPathname = path.join(repoRoot, sample)
+//   let dataBuffer = fs.readFileSync(pdfPathname)
+//   return pdf(dataBuffer);
+// };
+
+// module.exports = (on, config) => {
+//   on('task', {
+//       getPdfContent (sample) {
+//           return String(parsePdf(sample))
+//       }
+//   });
+// };
